@@ -32,8 +32,6 @@ export class NavbarComponent {
       });
 
 
-      //Debug
-      this.modalRef = this.modalService.open(SettingsModalComponent)      
   }
 
 
