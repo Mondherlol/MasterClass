@@ -18,8 +18,8 @@ import { Router, RouterLink, RouterModule } from '@angular/router';
   styleUrl: './sign-up-card.component.scss'
 })
 export class SignUpCardComponent {
-  email = new FormControl('mondherdddlo1l@gmail.com');
-  password= new FormControl('azerty123');
+  email = new FormControl('');
+  password= new FormControl('');
   numTel= new FormControl();
   nom = new FormControl("");
   prenom = new FormControl("");

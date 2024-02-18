@@ -16,8 +16,8 @@ import { showSuccessToast } from '../../Utils/toast-utils';
   styleUrl: './login-card.component.scss'
 })
 export class LoginCardComponent {
-  email = new FormControl('mondherdddlo1l@gmail.com');
-  password= new FormControl('azerty123');
+  email = new FormControl('');
+  password= new FormControl('');
   errorMessage : string = "";
   constructor(private router : Router, private http: HttpClient, private authService: AuthService, private toastr: ToastrService) {}
 
