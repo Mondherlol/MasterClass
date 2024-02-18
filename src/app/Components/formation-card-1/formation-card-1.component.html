@@ -1,5 +1,5 @@
 <div *ngIf="formation != null" class="formation-card-outline">
-  <div class="formation-card-container">
+  <div (click)="redirectToDetails()" class="formation-card-container">
     <img
       class="icon-formation tw-w-24 tw-h-24"
       decoding="async"
